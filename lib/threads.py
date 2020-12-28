@@ -1,7 +1,7 @@
 from threading import Thread
 from tkinter import Label, Entry
 from lib.server import Server
-from lib.client import Client
+
 
 class MyServerThread(Thread):
     def __init__(self, server: Server, label: Label):
